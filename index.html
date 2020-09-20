@@ -1,22 +1,18 @@
-<html>
-  <head>
-    <meta charset="UTF-8" />
-  </head>
-  <body>
-    <script src="./index.ts"></script>
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+</head>
+<body>
+  <script src="./index.ts"></script>
 
-    <!-- 나는 레거시다 -->
-    <script>
-      document.body.insertAdjacentHTML(
-        'beforeend',
-        `
-      <div style="background-color: #ccc">
-        나는 레거시다
+  <script>
+    document.body.insertAdjacentHTML(
+      'beforeend',
+      `<div style="background-color: #ccc">
+        Calling three.js in html using globalThis.THREE
         <br>
-        clamp(-3.14, 0.0, 1.0) = ${THREE.Math.clamp(-3.14, 0.0, 1.0)}
-      </div>
-    `
-      )
-    </script>
-  </body>
-</html>
+        clamp(-3.14, 0.0, 1.0) = ${THREE.MathUtils.clamp(-3.14, 0.0, 1.0)}
+      </div>`
+    )
+  </script>
+</body>
