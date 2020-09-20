@@ -3,14 +3,14 @@ parcel-practice
 Simple parcel practice
 
 ```bash
+# Install dependencies
 yarn
-yarn parcel index.html
-```
 
-Open <http://localhost:1234> which have HMR for development purpose. See `/dist`
-directory for production-ready build results.
+# See http://localhost:1234
+yarn start
+# See 'dist/'
+yarn build
 
-```bash
 yarn test
 yarn fmt
 ```
