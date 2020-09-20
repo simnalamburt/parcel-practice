@@ -12,4 +12,5 @@ directory for production-ready build results.
 
 ```bash
 yarn test
+yarn fmt
 ```

@@ -1,19 +1,22 @@
 <html>
-<head>
-  <meta charset="UTF-8">
-</head>
-<body>
-  <script src="./index.ts"></script>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <script src="./index.ts"></script>
 
-  <!-- 나는 레거시다 -->
-  <script>
-    document.body.insertAdjacentHTML('beforeend', `
+    <!-- 나는 레거시다 -->
+    <script>
+      document.body.insertAdjacentHTML(
+        'beforeend',
+        `
       <div style="background-color: #ccc">
         나는 레거시다
         <br>
         clamp(-3.14, 0.0, 1.0) = ${THREE.Math.clamp(-3.14, 0.0, 1.0)}
       </div>
-    `)
-  </script>
-</body>
+    `
+      )
+    </script>
+  </body>
 </html>
