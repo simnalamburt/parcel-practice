@@ -7,7 +7,7 @@ Simple parcel practice
 yarn
 
 # See http://localhost:1234
-yarn start
+yarn dev
 # See 'dist/'
 yarn build
 
