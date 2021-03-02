@@ -7571,7 +7571,7 @@ resolve@^1.3.2:
     "@babel/core": ^7.0.0
     parcel: nightly
     prettier: ^2.1.2
-    three: ^0.120.1
+    three: ^0.126.0
     typescript: ^4.0.3
   languageName: unknown
   linkType: soft
@@ -8248,10 +8248,10 @@ resolve@^1.3.2:
   languageName: node
   linkType: hard
 
-"three@npm:^0.120.1":
-  version: 0.120.1
-  resolution: "three@npm:0.120.1"
-  checksum: a7b78dad6f8f97f06da4b682bd27b97ae3edf42a60024f5386b93ddd925593f33e06640ad37db863d7a78d80eeabf123853c99246340855444c7a72b20e38595
+"three@npm:^0.126.0":
+  version: 0.126.0
+  resolution: "three@npm:0.126.0"
+  checksum: 68da31363b46bdfdf084999d7c7466dcb438e7e0f450d2c0715a45e3faf951ad560c8934de145fa9338d3317b3983ef8f221353383590a91deacdc5165f22e39
   languageName: node
   linkType: hard
 
