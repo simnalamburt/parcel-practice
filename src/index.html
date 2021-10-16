@@ -1,18 +1,14 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="UTF-8" />
-</head>
-<body>
-  <script src="./index.ts"></script>
-
-  <script>
-    document.body.insertAdjacentHTML(
-      'beforeend',
-      `<div style="background-color: #ccc">
-        Calling three.js in html using globalThis.THREE
-        <br>
-        clamp(-3.14, 0.0, 1.0) = ${THREE.MathUtils.clamp(-3.14, 0.0, 1.0)}
-      </div>`
-    )
-  </script>
-</body>
+<meta charset=UTF-8>
+<script type=module src="./index.ts"></script>
+<script>
+addEventListener('DOMContentLoaded', _ => {
+  document.body.insertAdjacentHTML('beforeend', `
+    <div style="background-color: #f5f5ff">
+      Calling three.js in html using globalThis.THREE
+      <br>
+      clamp(-3.14, 0.0, 1.0) = ${THREE.MathUtils.clamp(-3.14, 0.0, 1.0)}
+    </div>
+  `)
+})
+</script>
