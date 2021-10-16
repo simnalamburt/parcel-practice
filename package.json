@@ -6,7 +6,6 @@
     "fmt": "prettier --write ."
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
     "@types/three": "^0.133.1",
     "parcel": "^2.0.0",
     "prettier": "^2.1.2",

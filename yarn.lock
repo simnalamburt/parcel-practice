@@ -21,7 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.15.8, @babel/core@npm:^7.0.0, @babel/core@npm:^7.12.0":
+"@babel/core@npm:7.15.8, @babel/core@npm:^7.12.0":
   version: 7.15.8
   resolution: "@babel/core@npm:7.15.8"
   dependencies:
@@ -5565,7 +5565,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@babel/core": ^7.0.0
     "@types/three": ^0.133.1
     parcel: ^2.0.0
     prettier: ^2.1.2
