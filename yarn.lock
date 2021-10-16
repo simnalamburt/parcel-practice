@@ -1166,10 +1166,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/three@npm:^0.125.3":
-  version: 0.125.3
-  resolution: "@types/three@npm:0.125.3"
-  checksum: 1c0916383ff4b38ba41320ed1be982ccb1cb97dc4339be46e6b2ed27132cb0e968fd37294779da59be37dd2bb5b2c11fb71aab36a7fc18f0d4c6e00d7ee83f0c
+"@types/three@npm:^0.133.1":
+  version: 0.133.1
+  resolution: "@types/three@npm:0.133.1"
+  checksum: 5259827ac1cdee93cca3cb5d212d8624b1186165ab2fcff3430c9546190a517bbab29f041ac63b74ae81fc5834879d5afa2c6206297558829b775d908d603362
   languageName: node
   linkType: hard
 
@@ -5566,10 +5566,10 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@babel/core": ^7.0.0
-    "@types/three": ^0.125.3
+    "@types/three": ^0.133.1
     parcel: ^2.0.0
     prettier: ^2.1.2
-    three: ^0.126.0
+    three: ^0.133.1
     typescript: ^4.0.3
   languageName: unknown
   linkType: soft
@@ -6100,10 +6100,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"three@npm:^0.126.0":
-  version: 0.126.1
-  resolution: "three@npm:0.126.1"
-  checksum: e5bcf29091be0fa0083b357c5fb79cbb7c096e64c1e5a9ab9e73ef8176e8c6514a2d9b3198260df680aabd34ba1ca8ccbab6be1594f691e5d83f8a4e35001ecb
+"three@npm:^0.133.1":
+  version: 0.133.1
+  resolution: "three@npm:0.133.1"
+  checksum: ab9bea5f74b63d791ea1c0aa3c8953fd973bace5d043e9a9d94215f654d9d91576482e70637427e9e9cbc1e19d7417622ff6c15c065d3541ad2068b68c0b8657
   languageName: node
   linkType: hard
 
