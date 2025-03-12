@@ -1,12 +1,12 @@
-import * as THREE from 'three'
+import * as three from 'three'
 
-type ThreeType = typeof THREE
+type ThreeType = typeof three
 
 declare global {
   var THREE: ThreeType
 }
 
-globalThis.THREE = THREE
+globalThis.THREE = three
 
 document.body.insertAdjacentHTML(
   'beforeend',
