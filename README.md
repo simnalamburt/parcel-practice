@@ -4,15 +4,15 @@ Simple parcel practice
 
 ```bash
 # Install dependencies
-yarn
+pnpm i
 
 # See http://localhost:1234
-yarn dev
+pnpm dev
 # See 'dist/'
-yarn build
+pnpm build
 
-yarn test
-yarn fmt
+pnpm test
+pnpm fmt
 ```
 
 &nbsp;
