@@ -2,21 +2,17 @@
   "scripts": {
     "build": "parcel build src/index.html",
     "dev": "parcel serve src/index.html",
-    "test": "tsc && prettier --check .",
-    "fmt": "prettier --write ."
+    "test": "tsc && biome check",
+    "fix": "biome check --fix"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@types/three": "^0.174.0",
     "parcel": "^2.13.3",
-    "prettier": "^3.5.3",
     "typescript": "^5.8.2"
   },
   "dependencies": {
     "three": "^0.174.0"
-  },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true
   },
   "packageManager": "pnpm@10.6.2"
 }
