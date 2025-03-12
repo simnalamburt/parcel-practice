@@ -1,5 +1,11 @@
 import * as THREE from 'three'
 
+type ThreeType = typeof THREE
+
+declare global {
+  var THREE: ThreeType
+}
+
 globalThis.THREE = THREE
 
 document.body.insertAdjacentHTML(
