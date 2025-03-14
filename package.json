@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "parcel build src/index.html",
+    "build": "parcel build --public-url './' src/index.html",
     "dev": "parcel serve src/index.html",
     "test": "tsc && biome check",
     "fix": "biome check --fix"
