@@ -8,7 +8,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/three": "^0.174.0",
-    "parcel": "^2.13.3",
+    "parcel": "^2.14.4",
     "typescript": "^5.8.2"
   },
   "dependencies": {
