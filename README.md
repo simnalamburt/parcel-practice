@@ -4,15 +4,15 @@ Simple parcel practice
 
 ```bash
 # Install dependencies
-pnpm i
+bun i
 
 # See http://localhost:1234
-pnpm dev
+bun dev
 # See 'dist/'
-pnpm build
+bun run build
 
-pnpm test
-pnpm fix
+bun run test
+bun fix
 ```
 
 &nbsp;
