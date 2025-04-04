@@ -3,6 +3,12 @@ parcel-practice
 Simple parcel practice
 
 ```bash
+# NOTE: Even though it's using bun, it still requires Node.js
+#
+# References:
+#   https://github.com/oven-sh/bun/issues/4142
+#   https://github.com/oven-sh/bun/issues/4290
+
 # Install dependencies
 bun i
 
